@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-//import {API_URL, IMAGE_BASE_URL } <---- IMPORT IMAGE
 //firebase fetching
 
-//import Header from './Header/Header';
-//import NavigationBar from './NavigationBar/NavigationBar';
-//import Footer from './Footer/Footer';
-//import Spinner from './Spinner/Spinner';
+import Header from '../Header/Header';
+import NavigationBar from '../NavigationBar/NavigationBar';
+import Footer from '../Footer/Footer';
+//import image from '../images/mesaarch-sunrise.png'  <----?????
+
 import './Home.css';
 
 class Home extends Component {
@@ -13,24 +13,6 @@ class Home extends Component {
         image: [],
         loading: false,
     }
-
-    //lifecycle method
-    componentDidMount() {
-        this.setState({loading: true});
-        //const endpoint = `${API_URL}`
-        //this.fetchItems(endpoint);
-    }
-
-    // fetchItems = (endpoint) => {
-    //     fetch(endpoint)
-    //     .then(result => result.json())
-    //     .then(result => {
-    //         this.setState({
-    //                image: [...this.state.image, ...result.results],
-    //                loading: false,
-    //         })
-    //     })
-    // }
 
     render() {
         return(
@@ -40,7 +22,7 @@ class Home extends Component {
                 <NavigationBar />
                 <Footer />
                 */}
-                <img src="/Users/svetlanamonson/projects/utah-explore/utah-explore/src/components/Home/mesaarch-sunrise.png" 
+                <img src="../images/mesaarch-sunrise.png" 
                 alt="mesaarch-sunrise" />
                 
             </div>
@@ -48,3 +30,7 @@ class Home extends Component {
     }
 }
 export default Home;
+
+// IMAGE PATH:
+// /Users/svetlanamonson/projects/utah-explore/utah-explore/src/components/images/mesaarch-sunrise.png
+// "../images/mesaarch-sunrise.png"
