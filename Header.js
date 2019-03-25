@@ -1,15 +1,19 @@
 import React from 'react';
 //import './Header.css';
 
-//Stateless functional component below
-const Header = () => {
-    return(
-        <div className = "eu-header">
-            <div className = "eu-header-content">
-                <img className = "eu-logo" src="./..." alt=" " />
+
+
+class Header extends React.Component {
+    render() {
+        return(
+            <div>
+                HeAaADER
             </div>
-        </div>
-    )
+        )
+    }
 }
 
+
+//Logo/ Site Name!?
+//LogIn!?
 export default Header;
