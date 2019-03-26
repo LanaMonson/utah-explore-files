@@ -6,8 +6,8 @@ class EatPage extends Component {
     }
     render() {
         return(
-            <div >
-                EatPage
+            <div>
+                <a href="www.yelp.com">Search Yelp</a>
             </div>
         )
     }
