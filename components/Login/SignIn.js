@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+//import Firebase from 'firebase';
+import './SignIn.css';
 
 class SignInForm extends Component {
     constructor() {
