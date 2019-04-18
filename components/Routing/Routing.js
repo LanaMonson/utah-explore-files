@@ -6,9 +6,9 @@ import ActivityPage from '../ActivityPage/ActivityPage';
 import RelaxPage from '../RelaxPage/RelaxPage';
 import EatPage from '../EatPage/EatPage';
 import Carousel from '../Home/Carousel';
+import SignIn from '../Login/SignIn';
 //import * as serviceWorker from '../serviceWorker';
 //import * as serviceWorker from '/Users/svetlanamonson/projects/utah-explore/utah-explore/src/serviceWorker.js';
-
 
 
 class Routing extends Component {
