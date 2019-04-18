@@ -1,0 +1,19 @@
+.LogIn {
+    width: 94%;
+    background-color: rgb(125, 130, 136);
+    
+    margin: 3%;
+    padding: 10%;
+    
+    }
+    
+    .flexBox {
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    .submit {
+    background-color: darkblue;
+    color: white;
+    }
