@@ -7,7 +7,7 @@ class RelaxPage extends Component {
     render() {
         return(
             <div >
-                RelaxPage
+                a Place to relax: Hotels, SPA.
             </div>
         )
     }
