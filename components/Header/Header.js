@@ -1,6 +1,5 @@
 import React from 'react';
-//import './Header.css';
-
+import './Header.css';
 
 
 class Header extends React.Component {
@@ -14,6 +13,4 @@ class Header extends React.Component {
 }
 
 
-//Logo/ Site Name!?
-//LogIn!?
 export default Header;
